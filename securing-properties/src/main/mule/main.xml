@@ -14,7 +14,8 @@ output application/json
 ---
 {
 	"message":p('message'),
-	"message2":p('secure::message2')
+	"message2":p('secure::message2'),
+	"message3":"Boss"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
